@@ -12,6 +12,7 @@ data = pd.read_csv("deneyim_maas.csv")
 X = data[['deneyim_yili']]
 y = data['maas']
 
+
 #Model Eğitimi
 
 model = LinearRegression()
